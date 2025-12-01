@@ -4,164 +4,266 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Digital shadows and grey hat insights.">
-    <title>Protocol: UNKNOWN</title>
+    <meta name="description" content="Expert Digital Marketing Strategy & Growth Consulting">
+    <title>Momentum | Digital Growth Strategy</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syncopate:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;700&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
-    <div class="scanlines"></div>
-    <div class="noise"></div>
-
     <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#home" class="nav-logo" data-text="ROOT_ACCESS">ROOT_ACCESS</a>
+            <a href="#home" class="nav-logo">MOMENTUM<span class="dot">.</span></a>
             <ul class="nav-menu" id="nav-menu">
-                <li><a href="#logs" class="nav-link">[LOGS]</a></li>
-                <li><a href="#payloads" class="nav-link">[PAYLOADS]</a></li>
-                <li><a href="#signal" class="nav-link">[SIGNAL]</a></li>
+                <li><a href="#services" class="nav-link">Expertise</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#insights" class="nav-link">Insights</a></li>
+                <li><a href="#contact" class="nav-link btn-nav">Book Consultation</a></li>
             </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="glitch-container">
-                <h1 class="hero-title glitch" data-text="SYSTEM_COMPROMISED">SYSTEM_COMPROMISED</h1>
-                <h1 class="hero-title glitch layer-2" data-text="SYSTEM_COMPROMISED">SYSTEM_COMPROMISED</h1>
-                <h1 class="hero-title glitch layer-3" data-text="SYSTEM_COMPROMISED">SYSTEM_COMPROMISED</h1>
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-label">Digital Growth Specialist</span>
+                <h1 class="hero-title">Data-Driven Strategies for <span class="highlight">Scalable Growth</span></h1>
+                <p class="hero-subtitle">I help ambitious brands navigate the digital landscape, optimize conversion
+                    funnels, and drive measurable revenue growth through targeted marketing campaigns.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Start Your Growth Journey</a>
+                    <a href="#services" class="btn btn-outline">Explore Services</a>
+                </div>
+                <div class="trust-signals">
+                    <p>Trusted by industry leaders:</p>
+                    <div class="logos">
+                        <span>TechCorp</span>
+                        <span>GlobalScale</span>
+                        <span>VentureFlow</span>
+                        <span>Nexus</span>
+                    </div>
+                </div>
             </div>
-            <div class="terminal-block">
-                <p class="terminal-text">> INITIATING HANDSHAKE...</p>
-                <p class="terminal-text">> CONNECTION ESTABLISHED.</p>
-                <p class="terminal-text">> USER: ANONYMOUS</p>
-                <p class="terminal-text">> ACCESS LEVEL: GREY</p>
-                <p class="terminal-text typing-effect">_ Welcome to the fringe. We explore what others ignore.</p>
+            <div class="hero-visual">
+                <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80"
+                    alt="Digital Marketing Analytics" class="hero-img">
+                <div class="stat-card card-1">
+                    <span class="stat-num">+150%</span>
+                    <span class="stat-desc">ROI Average</span>
+                </div>
+                <div class="stat-card card-2">
+                    <span class="stat-num">10k+</span>
+                    <span class="stat-desc">Leads Generated</span>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Blog Section (Logs) -->
-    <section class="section-logs" id="logs">
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2 class="section-title">Core Competencies</h2>
+                <p class="section-subtitle">Comprehensive digital solutions tailored to your business objectives.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <line x1="2" y1="12" x2="22" y2="12"></line>
+                            <path
+                                d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>SEO & Organic Growth</h3>
+                    <p>Dominating search results with technical SEO, content architecture, and authority building
+                        strategies that drive sustainable organic traffic.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21.21 15.89A10 10 0 1 1 8 2.83"></path>
+                            <path d="M22 12A10 10 0 0 0 12 2v10z"></path>
+                        </svg>
+                    </div>
+                    <h3>Performance Marketing</h3>
+                    <p>High-ROI paid acquisition campaigns across Google, LinkedIn, and Meta. Precision targeting to
+                        maximize ad spend efficiency.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                            <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                        </svg>
+                    </div>
+                    <h3>Content Strategy</h3>
+                    <p>Developing authoritative content ecosystems that position your brand as a thought leader and
+                        nurture prospects through the funnel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80"
+                    alt="Professional Marketer" class="profile-img">
+            </div>
+            <div class="about-content">
+                <h2 class="section-title">Strategic Vision. Executed.</h2>
+                <p class="lead-text">I bridge the gap between creative storytelling and analytical rigor.</p>
+                <p>With over a decade of experience in the digital space, I've helped startups reach their first million
+                    and established enterprises pivot to digital-first models. My approach is strictly white-hat,
+                    focusing on long-term sustainability and brand integrity.</p>
+                <p>I believe that true marketing success comes from deeply understanding the customer journey and
+                    removing friction at every touchpoint.</p>
+                <div class="metrics">
+                    <div class="metric">
+                        <span class="metric-val">10+</span>
+                        <span class="metric-label">Years Exp.</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-val">$50M+</span>
+                        <span class="metric-label">Revenue Driven</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-val">200+</span>
+                        <span class="metric-label">Projects</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insights/Blog Section -->
+    <section class="insights" id="insights">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">/VAR/LOGS</h2>
-                <div class="binary-divider">01001001 01101110 01100110 01101111</div>
+                <h2 class="section-title">Market Insights</h2>
+                <a href="#" class="view-all">View All Articles &rarr;</a>
             </div>
-            <div class="log-list">
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="log-id">#0x1A4</span>
-                        <span class="log-date">2024-12-01</span>
+            <div class="insights-grid">
+                <article class="insight-card">
+                    <div class="insight-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&q=80"
+                            alt="Analytics Graph">
                     </div>
-                    <h3 class="log-title">The Illusion of Privacy in the Mesh</h3>
-                    <p class="log-preview">They tell you encryption is safe. They lie. The backdoor isn't in the code;
-                        it's in the people who write it.</p>
-                    <a href="#" class="log-link">EXECUTE_READ >></a>
+                    <div class="insight-content">
+                        <span class="insight-tag">Strategy</span>
+                        <h3>The Death of Third-Party Cookies: What's Next?</h3>
+                        <p>How to pivot your data strategy in a privacy-first world. First-party data collection is no
+                            longer optional.</p>
+                        <a href="#" class="read-more">Read Analysis</a>
+                    </div>
                 </article>
-
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="log-id">#0x1A3</span>
-                        <span class="log-date">2024-11-24</span>
+                <article class="insight-card">
+                    <div class="insight-img">
+                        <img src="https://images.unsplash.com/photo-1553484771-371af2726619?w=500&q=80"
+                            alt="Team Meeting">
                     </div>
-                    <h3 class="log-title">Social Engineering the Corporate Ladder</h3>
-                    <p class="log-preview">Human firewalls are always the first to crumble. A study on authority bias
-                        and digital impersonation.</p>
-                    <a href="#" class="log-link">EXECUTE_READ >></a>
+                    <div class="insight-content">
+                        <span class="insight-tag">Leadership</span>
+                        <h3>Aligning Sales and Marketing Teams</h3>
+                        <p>Breaking down silos to create a unified revenue operations engine. Common pitfalls and how to
+                            avoid them.</p>
+                        <a href="#" class="read-more">Read Analysis</a>
+                    </div>
                 </article>
-
-                <article class="log-entry">
-                    <div class="log-meta">
-                        <span class="log-id">#0x1A2</span>
-                        <span class="log-date">2024-11-15</span>
+                <article class="insight-card">
+                    <div class="insight-img">
+                        <img src="https://images.unsplash.com/photo-1533750349088-cd871a92f312?w=500&q=80"
+                            alt="Social Media">
                     </div>
-                    <h3 class="log-title">Zero Day Economics</h3>
-                    <p class="log-preview">The market for vulnerabilities is booming. Are you a buyer or a product?</p>
-                    <a href="#" class="log-link">EXECUTE_READ >></a>
+                    <div class="insight-content">
+                        <span class="insight-tag">Social</span>
+                        <h3>B2B Social Selling in 2025</h3>
+                        <p>Why personal branding for executives is the highest leverage activity for enterprise sales.
+                        </p>
+                        <a href="#" class="read-more">Read Analysis</a>
+                    </div>
                 </article>
             </div>
         </div>
     </section>
 
-    <!-- Books Section (Payloads) -->
-    <section class="section-payloads" id="payloads">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">/BIN/PAYLOADS</h2>
-                <div class="binary-divider">01000100 01100001 01110100 01100001</div>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="contact-text">
+                <h2 class="section-title">Ready to Scale?</h2>
+                <p>Let's discuss your growth targets and how we can achieve them. I accept a limited number of
+                    consulting engagements per quarter to ensure maximum focus.</p>
+                <ul class="contact-list">
+                    <li>
+                        <span class="icon">✉</span>
+                        hello@momentumdigital.com
+                    </li>
+                    <li>
+                        <span class="icon">📍</span>
+                        New York, NY
+                    </li>
+                </ul>
             </div>
-            <div class="payload-grid">
-                <!-- Book 1 -->
-                <div class="payload-card">
-                    <div class="payload-visual">
-                        <div class="abstract-shape shape-1"></div>
-                        <div class="glitch-overlay"></div>
+            <form class="contact-form" id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
                     </div>
-                    <div class="payload-info">
-                        <h3 class="payload-name">GHOST_PROTOCOL</h3>
-                        <p class="payload-type">MANUAL_V1.0</p>
-                        <p class="payload-desc">A guide to disappearing in a surveillance state. Theoretical frameworks
-                            for digital invisibility.</p>
-                        <button class="btn-terminal">ACQUIRE [ $15.00 ]</button>
+                    <div class="form-group">
+                        <label for="email">Business Email</label>
+                        <input type="email" id="email" required>
                     </div>
                 </div>
-
-                <!-- Book 2 -->
-                <div class="payload-card">
-                    <div class="payload-visual">
-                        <div class="abstract-shape shape-2"></div>
-                        <div class="glitch-overlay"></div>
-                    </div>
-                    <div class="payload-info">
-                        <h3 class="payload-name">VECTOR_ANALYSIS</h3>
-                        <p class="payload-type">MANIFESTO_V2.0</p>
-                        <p class="payload-desc">Deconstructing the modern attack surface. Why everything you own is a
-                            potential listening device.</p>
-                        <button class="btn-terminal">ACQUIRE [ $18.00 ]</button>
-                    </div>
+                <div class="form-group">
+                    <label for="website">Company Website</label>
+                    <input type="url" id="website">
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="message">Project Details</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Request Consultation</button>
+            </form>
         </div>
     </section>
 
-    <!-- Contact Section (Signal) -->
-    <section class="section-signal" id="signal">
-        <div class="container">
-            <div class="terminal-window">
-                <div class="terminal-header">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                    <span class="title">secure_channel.sh</span>
-                </div>
-                <div class="terminal-body">
-                    <form id="signal-form">
-                        <div class="input-line">
-                            <span class="prompt">root@user:~$</span>
-                            <input type="text" class="cmd-input" placeholder="enter_alias" required>
-                        </div>
-                        <div class="input-line">
-                            <span class="prompt">root@user:~$</span>
-                            <input type="email" class="cmd-input" placeholder="enter_comm_link" required>
-                        </div>
-                        <div class="input-line">
-                            <span class="prompt">root@user:~$</span>
-                            <textarea class="cmd-input cmd-area" placeholder="encrypt_message..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn-execute">./send_packet</button>
-                    </form>
-                </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="brand-name">MOMENTUM.</span>
+                <p>Elevating brands through strategic digital excellence.</p>
+            </div>
+            <div class="footer-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">Twitter</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                &copy; 2025 Momentum Digital Strategy. All rights reserved.
             </div>
         </div>
-    </section>
+    </footer>
 
     <script src="script.js"></script>
 </body>
